@@ -3113,7 +3113,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 11
+      m_TileSpriteIndex: 31
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5206,8 +5206,8 @@ Tilemap:
     m_Data: {fileID: 21300008, guid: 85a7945d9afa66241856829353b87653, type: 3}
   - m_RefCount: 25
     m_Data: {fileID: 21300012, guid: 85a7945d9afa66241856829353b87653, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300002, guid: 85a7945d9afa66241856829353b87653, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 5
     m_Data: {fileID: 21300004, guid: 85a7945d9afa66241856829353b87653, type: 3}
   - m_RefCount: 18
@@ -5246,8 +5246,8 @@ Tilemap:
     m_Data: {fileID: 21300030, guid: 85a7945d9afa66241856829353b87653, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300070, guid: 85a7945d9afa66241856829353b87653, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300002, guid: 85a7945d9afa66241856829353b87653, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300080, guid: 85a7945d9afa66241856829353b87653, type: 3}
   - m_RefCount: 1
@@ -5388,6 +5388,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987287005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987287006}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987287006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987287005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.303862, y: -0.32889226, z: 0.05363541}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &636367275045147562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5396,6 +5427,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1335073108716197752, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3190046454845744587, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
       propertyPath: m_Name
       value: Exit
@@ -5406,11 +5441,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8638757354596178798, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7499127
+      value: 10.09
       objectReference: {fileID: 0}
     - target: {fileID: 8638757354596178798, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.15856725
+      value: -3.68
       objectReference: {fileID: 0}
     - target: {fileID: 8638757354596178798, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5447,6 +5482,24 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
+--- !u!1 &636367275045147563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3190046454845744587, guid: 267341c92c0f5f144aa195e4b14e8c86, type: 3}
+  m_PrefabInstance: {fileID: 636367275045147562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &636367275045147564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636367275045147563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085ebe6694bfbe7479cac21edb9cc28d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Level1
 --- !u!1001 &2594771226144331864
 PrefabInstance:
   m_ObjectHideFlags: 0
