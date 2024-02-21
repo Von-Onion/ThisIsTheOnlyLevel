@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool jump = false;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     {
         xMovement = Input.GetAxisRaw("Horizontal") * speed;
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump")) 
         {
             jump = true;
         }
