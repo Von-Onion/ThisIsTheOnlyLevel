@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 40f;
 
+    public KeyCode jumpKey1 = KeyCode.UpArrow;
+    public KeyCode jumpKey2 = KeyCode.W;
+
     private bool jump = false;
 
     // Start is called before the first frame update
@@ -23,7 +26,8 @@ public class PlayerMovement : MonoBehaviour
     {
         xMovement = Input.GetAxisRaw("Horizontal") * speed;
 
-        if (Input.GetButtonDown("Jump"))
+
+        if (Input.GetButtonDown("Jump") || Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2))
         {
             jump = true;
         }
