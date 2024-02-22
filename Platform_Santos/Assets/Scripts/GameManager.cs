@@ -7,8 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public float timeValue = 1;
 
-    public Scene scene;
-    public int sceneIndex;
+    private Scene scene;
+    private int sceneIndex;
     public Rigidbody2D rb2d;
     public float currentGravity;
 
@@ -28,9 +28,19 @@ public class GameManager : MonoBehaviour
         if(sceneIndex == 2){
             TimeScale(.5f);
         }
+
+        if(sceneIndex == 3)
+        {
+           Gravity(2);
+        }
     }
 
     public void TimeScale(float scale){
         Time.timeScale = scale;
+    }
+
+    public void Gravity(float scale)
+    {
+        rb2d.gravityScale = scale;
     }
 }
