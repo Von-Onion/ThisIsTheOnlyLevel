@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
     public Rigidbody2D rb2d;
     public float currentGravity;
 
+    public PlayerMovement pm;
+
+    public bool isUpsideDown;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,8 @@ public class GameManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
 
         sceneIndex = scene.buildIndex;
+
+        isUpsideDown = false;
     }
 
     // Update is called once per frame
@@ -31,7 +37,16 @@ public class GameManager : MonoBehaviour
 
         if(sceneIndex == 3)
         {
-           Gravity(2);
+           Gravity(6);
+        }
+
+        if(sceneIndex == 4){
+            Gravity(1);
+        }
+
+        if(sceneIndex == 5){
+            Gravity(-3);
+            isUpsideDown = true;
         }
     }
 

@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
 
+    [SerializeField] public GameManager gm;
+
     private float xMovement = 0f;
 
     public float speed = 40f;
@@ -30,6 +32,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") || Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2))
         {
             jump = true;
+        }
+
+        if(gm.isUpsideDown){
+            
         }
     }
 
