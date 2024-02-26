@@ -6180,6 +6180,8 @@ MonoBehaviour:
   timeValue: 1
   rb2d: {fileID: 811165936}
   currentGravity: 0
+  pm: {fileID: 0}
+  isUpsideDown: 0
 --- !u!1001 &636367275045147562
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -45,7 +45,6 @@ public class GameManager : MonoBehaviour
         }
 
         if(sceneIndex == 5){
-            Gravity(-3);
             isUpsideDown = true;
         }
     }

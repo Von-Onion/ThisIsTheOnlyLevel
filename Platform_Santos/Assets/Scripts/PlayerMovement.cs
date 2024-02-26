@@ -35,7 +35,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(gm.isUpsideDown){
-            
+            xMovement = -Input.GetAxisRaw("Horizontal") * speed;
+            Debug.Log("Son");
         }
     }
 
