@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Exit : MonoBehaviour
 {
     [SerializeField] private string sceneName;
+    private Scene scene;
+    private int sceneIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +17,10 @@ public class Exit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneName);
+        scene = SceneManager.GetActiveScene();
+        sceneIndex = scene.buildIndex;
+
+        SceneManager.LoadScene(sceneIndex + 1);
         Debug.Log("Exit Reached");
     }
 }
