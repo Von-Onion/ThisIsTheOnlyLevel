@@ -4496,6 +4496,8 @@ MonoBehaviour:
   door: {fileID: 963298953}
   target: {fileID: 536718156}
   doorTarget: {fileID: 946048698}
+  buttonTime: 5
+  doorTime: 5
 --- !u!1 &1849313406
 GameObject:
   m_ObjectHideFlags: 0
