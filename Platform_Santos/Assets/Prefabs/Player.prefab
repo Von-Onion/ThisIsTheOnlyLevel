@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.18266344, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -180,6 +180,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 2594771227278113367}
   m_CeilingCheck: {fileID: 2594771226488952035}
   m_CrouchDisableCollider: {fileID: 0}
+  gm: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -199,7 +200,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2594771227218660071}
+  gm: {fileID: 0}
   speed: 40
+  jumpKey1: 273
+  jumpKey2: 119
 --- !u!1 &2594771227278113366
 GameObject:
   m_ObjectHideFlags: 0

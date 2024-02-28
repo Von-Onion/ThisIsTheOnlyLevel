@@ -32,16 +32,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if(sceneIndex == 2){
-            TimeScale(.5f);
+           Gravity(1);
         }
 
         if(sceneIndex == 3)
         {
-           Gravity(6);
+            TimeScale(2);
         }
 
         if(sceneIndex == 4){
-            Gravity(1);
+            isUpsideDown = true;
         }
 
         if(sceneIndex == 5){
