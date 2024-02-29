@@ -28,8 +28,10 @@ public class Menu : MonoBehaviour
         Debug.Log("Minecart");
     }
 
-    public void Back()
+    public void Back(GameObject panel)
     {
+        panel.SetActive(false);
+
         if (isSelectActive)
         {
             selectPanel.SetActive(false);
