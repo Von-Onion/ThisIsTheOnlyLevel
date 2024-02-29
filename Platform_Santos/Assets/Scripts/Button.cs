@@ -13,7 +13,7 @@ public class Button : MonoBehaviour
 
     [Header("Values")]
     [SerializeField] private float buttonTime = 1f;
-    [SerializeField] private float doorTime = 1f;
+    [SerializeField] private float doorTime = 0.1f;
     private Vector2 buttonTransform;
 
     private bool isPressed;
@@ -32,7 +32,12 @@ public class Button : MonoBehaviour
     {
         if(isPressed){
             button.transform.position = Vector2.Lerp(transform.position, target.transform.position, Time.deltaTime * buttonTime);
+
             door.transform.position = Vector2.Lerp(door.transform.position, doorTarget.transform.position, Time.deltaTime * doorTime);
+        }
+
+        if(transform.position == target.transform.position)
+        {
         }
     }
 

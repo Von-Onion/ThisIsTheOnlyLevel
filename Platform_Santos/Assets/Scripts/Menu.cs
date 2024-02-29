@@ -8,8 +8,11 @@ public class Menu : MonoBehaviour
     [SerializeField] private string sceneName;
     public GameObject selectPanel;
     public GameObject optionsPanel;
+    public GameObject instructionsPanel;
     private bool isOptionsActive = false;
     private bool isSelectActive = false;
+    private bool isInstructionsActive = false;
+
 
     public void LevelSelect()
     {
@@ -28,19 +31,31 @@ public class Menu : MonoBehaviour
         Debug.Log("Minecart");
     }
 
-    public void Back(GameObject panel)
+    public void Instructions()
     {
-        panel.SetActive(false);
+        isInstructionsActive = true;
+        instructionsPanel.SetActive(true);
+    }
+
+    public void Back()
+    {
+
+
 
         if (isSelectActive)
         {
             selectPanel.SetActive(false);
             isSelectActive = false;
         }
+        else if(isOptionsActive)
+        {
+            optionsPanel.SetActive(false);
+            isOptionsActive = false;
+        }
         else
         {
-            optionsPanel.SetActive(true);
-            isOptionsActive = false;
+            isInstructionsActive = false;
+            instructionsPanel.SetActive(false);
         }
     }
 

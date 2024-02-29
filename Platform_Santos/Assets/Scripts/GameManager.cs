@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if(sceneIndex == 2){
-           Gravity(1);
+           Gravity(2);
         }
 
         if(sceneIndex == 3)
