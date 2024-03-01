@@ -17,13 +17,11 @@ public class Button : MonoBehaviour
     private Vector2 buttonTransform;
 
     private bool isPressed;
-    private bool isReleased;
 
     // Start is called before the first frame update
     void Start()
     {
         isPressed = false;
-        isReleased = false;
         buttonTransform = transform.position;
     }
 
@@ -35,10 +33,6 @@ public class Button : MonoBehaviour
 
             door.transform.position = Vector2.Lerp(door.transform.position, doorTarget.transform.position, Time.deltaTime * doorTime);
         }
-
-        if(transform.position == target.transform.position)
-        {
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,8 +40,4 @@ public class Button : MonoBehaviour
        isPressed = true;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        isReleased = true;
-    }
 }

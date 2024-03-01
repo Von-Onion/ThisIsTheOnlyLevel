@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public float timeValue = 1;
-
     private Scene scene;
     private int sceneIndex;
     public Rigidbody2D rb2d;
-    public float currentGravity;
-
-    public PlayerMovement pm;
-
     public bool isUpsideDown;
 
     // Start is called before the first frame update
