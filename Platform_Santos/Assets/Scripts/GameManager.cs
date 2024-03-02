@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     {
         if(sceneIndex == 2){
            Gravity(2);
+           TimeScale(.5f);
         }
 
         if(sceneIndex == 3)
@@ -39,7 +40,7 @@ public class GameManager : MonoBehaviour
         }
 
         if(sceneIndex == 5){
-            isUpsideDown = true;
+
         }
     }
 
