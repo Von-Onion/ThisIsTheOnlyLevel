@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     private Scene scene;
     private int sceneIndex;
+    private string sceneName;
     public Rigidbody2D rb2d;
     public bool isUpsideDown;
 
@@ -18,6 +19,8 @@ public class GameManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
 
         sceneIndex = scene.buildIndex;
+
+        sceneName = scene.name;
 
         isUpsideDown = false;
     }
@@ -35,7 +38,7 @@ public class GameManager : MonoBehaviour
             TimeScale(2);
         }
 
-        if(sceneIndex == 4){
+        if(sceneName == "Level4"){
             isUpsideDown = true;
         }
 
