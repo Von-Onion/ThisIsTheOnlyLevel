@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
 
-    [SerializeField] public GameManager gm;
+    public GameManager gm;
+
+    [SerializeField] private Animator animator;
 
     private float xMovement = 0f;
 
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         xMovement = Input.GetAxisRaw("Horizontal") * speed;
 
+        animator.SetFloat("Speed", Mathf.Abs(xMovement));
 
         if (Input.GetButtonDown("Jump") || Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2))
         {
