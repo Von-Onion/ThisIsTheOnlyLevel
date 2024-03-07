@@ -4617,10 +4617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3aae64f11884ac4ab013d824cc86341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 1
+  player: {fileID: 0}
   rb2d: {fileID: 811165936}
-  currentGravity: 0
-  pm: {fileID: 0}
   isUpsideDown: 0
 --- !u!1001 &636367275045147562
 PrefabInstance:
@@ -4702,7 +4700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085ebe6694bfbe7479cac21edb9cc28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level2
 --- !u!1001 &2594771226144331864
 PrefabInstance:
   m_ObjectHideFlags: 0

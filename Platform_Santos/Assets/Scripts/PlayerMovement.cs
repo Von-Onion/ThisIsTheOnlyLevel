@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
 
     public GameManager gm;
+    public GameObject player;
 
     [SerializeField] private Animator animator;
 
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = this.gameObject;
     }
 
     // Update is called once per frame

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     private Scene scene;
     private int sceneIndex;
     private string sceneName;
+  
+    [SerializeField] private GameObject player;
     public Rigidbody2D rb2d;
     public bool isUpsideDown;
 
@@ -28,9 +30,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(sceneIndex == 2){
-           Gravity(2);
-           TimeScale(.5f);
+        if(sceneName == "Leve2"){
+            player.transform.localScale = player.transform.localScale * 2;
         }
 
         if(sceneIndex == 3)
@@ -43,7 +44,7 @@ public class GameManager : MonoBehaviour
         }
 
         if(sceneIndex == 5){
-
+            
         }
     }
 
