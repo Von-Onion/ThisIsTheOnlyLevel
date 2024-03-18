@@ -4321,7 +4321,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.009331226, g: 0, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.1764706, g: 0.1764706, b: 0.1764706, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4617,6 +4617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3aae64f11884ac4ab013d824cc86341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   rb2d: {fileID: 811165936}
   isUpsideDown: 0
 --- !u!1001 &636367275045147562

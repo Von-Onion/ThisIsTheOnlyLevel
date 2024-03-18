@@ -43,8 +43,8 @@ public class GameManager : MonoBehaviour
             isUpsideDown = true;
         }
 
-        if(sceneIndex == 5){
-            
+        if(sceneName == "Level5"){
+            isUpsideDown = true;
         }
     }
 
