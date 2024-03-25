@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelMovement : MonoBehaviour
 {
     public GameObject level;
+    [SerializeField] private Rigidbody2D rb;
     public float speed;
 
     private float xAxis = 0;
@@ -20,5 +21,10 @@ public class LevelMovement : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void FixedUpdate()
+    {
+        
     }
 }
