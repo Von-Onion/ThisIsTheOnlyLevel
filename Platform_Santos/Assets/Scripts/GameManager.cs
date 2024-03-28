@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public Rigidbody2D rb2d;
     public bool isUpsideDown;
 
+    [SerializeField] private int frameRate = 60;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class GameManager : MonoBehaviour
         sceneName = scene.name;
 
         isUpsideDown = false;
+
+        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
@@ -45,6 +49,11 @@ public class GameManager : MonoBehaviour
 
         if(sceneName == "Level5"){
             isUpsideDown = true;
+        }
+
+        if (sceneName == "Level8")
+        {
+            Application.targetFrameRate = frameRate;
         }
     }
 
