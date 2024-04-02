@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
             player.transform.localScale = player.transform.localScale * 2;
         }
 
-        if(sceneIndex == 3)
+        if(sceneName == "Level3")
         {
             TimeScale(2);
         }
