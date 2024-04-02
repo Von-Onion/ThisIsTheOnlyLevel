@@ -30,7 +30,6 @@ public class Button : MonoBehaviour
     {
         if(isPressed){
             button.transform.position = Vector2.Lerp(transform.position, target.transform.position, Time.deltaTime * buttonTime);
-
             door.transform.position = Vector2.Lerp(door.transform.position, doorTarget.transform.position, Time.deltaTime * doorTime);
         }
     }
