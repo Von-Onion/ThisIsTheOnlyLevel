@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(sceneName == "Level2"){
+        if(sceneName == "Leve2"){
             player.transform.localScale = player.transform.localScale * 2;
         }
 
