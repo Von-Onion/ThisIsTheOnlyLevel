@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(xMovement));
 
-        if ((Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2)) && gm.sceneName != "Level5")
+        if ((Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2)) && gm.sceneName != "Level9")
         {
             jump = true;
         } 
