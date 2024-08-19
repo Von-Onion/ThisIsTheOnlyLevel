@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         if (sceneName == "Level8")
         {
-            Application.targetFrameRate = frameRate;
+            Application.targetFrameRate = 10;
         } else{
             Application.targetFrameRate = 60;
         }

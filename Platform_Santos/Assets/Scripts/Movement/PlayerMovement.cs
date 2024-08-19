@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         player = this.gameObject;
+        
     }
 
     // Update is called once per frame
@@ -33,15 +34,15 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(xMovement));
 
-        if ((Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2)) && gm.sceneName != "Level4")
+        if (Input.GetKeyDown(jumpKey1) || Input.GetKeyDown(jumpKey2))
         {
             jump = true;
         } 
 
-        if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && gm.isUpsideDown && gm.sceneName != "Level9")
+        /*if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && gm.isUpsideDown && gm.sceneName != "Level9")
         {
             jump = true;
-        }
+        }*/
 
 
             if (gm.isUpsideDown){
