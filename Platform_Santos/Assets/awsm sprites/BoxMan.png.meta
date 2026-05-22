@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 3fb9aeae45dc40a46b655bc8dd26a15f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1668131698626628115
+    second: BoxMan_0
+  - first:
+      213: -8634756691527661942
+    second: BoxMan_1
+  - first:
+      213: 4305732010263837293
+    second: BoxMan_2
+  - first:
+      213: 4493261208176300130
+    second: BoxMan_3
+  - first:
+      213: -7774921092324917768
+    second: BoxMan_4
+  - first:
+      213: -1391272454816677744
+    second: BoxMan_5
+  - first:
+      213: -4629649354626857291
+    second: BoxMan_6
+  - first:
+      213: 3584028911714322525
+    second: BoxMan_7
+  - first:
+      213: 44056562478861315
+    second: BoxMan_8
+  - first:
+      213: 6766389395342957053
+    second: BoxMan_9
+  - first:
+      213: -7024840417773259019
+    second: BoxMan_10
+  - first:
+      213: -4210794883801972904
+    second: BoxMan_11
+  - first:
+      213: -3687602879183228764
+    second: BoxMan_12
+  - first:
+      213: -5136298669025229927
+    second: BoxMan_13
+  - first:
+      213: -3876391997024711602
+    second: BoxMan_14
+  - first:
+      213: -1343489723136140845
+    second: BoxMan_15
+  - first:
+      213: -9153871883955581972
+    second: BoxMan_16
+  - first:
+      213: -1118757272128444746
+    second: BoxMan_17
+  - first:
+      213: -6466658786337336733
+    second: BoxMan_18
+  - first:
+      213: -3688910048982367860
+    second: BoxMan_19
+  - first:
+      213: 319544099653852068
+    second: BoxMan_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoxMan_0
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 11359
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a853711f4662710800000000000000
+      internalID: 1668131698626628115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_1
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 11359
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a860197b98e2b2880800000000000000
+      internalID: -8634756691527661942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_2
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 11359
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6afdc9537801cb30800000000000000
+      internalID: 4305732010263837293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_3
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 11359
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260146433454b5e30800000000000000
+      internalID: 4493261208176300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_4
+      rect:
+        serializedVersion: 2
+        x: 11391
+        y: 11359
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdf747b57ee91490800000000000000
+      internalID: -7774921092324917768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 8671
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090cdd8d21531bce0800000000000000
+      internalID: -1391272454816677744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_6
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 8671
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b689ded07e20cfb0800000000000000
+      internalID: -4629649354626857291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_7
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 8671
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5846736e470db130800000000000000
+      internalID: 3584028911714322525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_8
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 8671
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cc39cc5358c9000800000000000000
+      internalID: 44056562478861315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_9
+      rect:
+        serializedVersion: 2
+        x: 11391
+        y: 8671
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df913612e4b07ed50800000000000000
+      internalID: 6766389395342957053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_10
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 5983
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f671d6fbd0c28e90800000000000000
+      internalID: -7024840417773259019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_11
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 5983
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f73f8ec504095c0800000000000000
+      internalID: -4210794883801972904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_12
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 5983
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0739918b003dcc0800000000000000
+      internalID: -3687602879183228764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_13
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 5983
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9938074e29338b8b0800000000000000
+      internalID: -5136298669025229927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_14
+      rect:
+        serializedVersion: 2
+        x: 11391
+        y: 5983
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ccc27440a443ac0800000000000000
+      internalID: -3876391997024711602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3295
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d915150737fa5de0800000000000000
+      internalID: -1343489723136140845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_16
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 3295
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb4465550ae6f080800000000000000
+      internalID: -9153871883955581972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_17
+      rect:
+        serializedVersion: 2
+        x: 6015
+        y: 3295
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b626ec30306970f0800000000000000
+      internalID: -1118757272128444746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_18
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 3295
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36254bc7810d146a0800000000000000
+      internalID: -6466658786337336733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_19
+      rect:
+        serializedVersion: 2
+        x: 11391
+        y: 3295
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81890aeadb5eccc0800000000000000
+      internalID: -3688910048982367860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxMan_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 607
+        width: 1410
+        height: 1474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab90f56aaf3f6400800000000000000
+      internalID: 319544099653852068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoxMan_0: 1668131698626628115
+      BoxMan_1: -8634756691527661942
+      BoxMan_10: -7024840417773259019
+      BoxMan_11: -4210794883801972904
+      BoxMan_12: -3687602879183228764
+      BoxMan_13: -5136298669025229927
+      BoxMan_14: -3876391997024711602
+      BoxMan_15: -1343489723136140845
+      BoxMan_16: -9153871883955581972
+      BoxMan_17: -1118757272128444746
+      BoxMan_18: -6466658786337336733
+      BoxMan_19: -3688910048982367860
+      BoxMan_2: 4305732010263837293
+      BoxMan_20: 319544099653852068
+      BoxMan_3: 4493261208176300130
+      BoxMan_4: -7774921092324917768
+      BoxMan_5: -1391272454816677744
+      BoxMan_6: -4629649354626857291
+      BoxMan_7: 3584028911714322525
+      BoxMan_8: 44056562478861315
+      BoxMan_9: 6766389395342957053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
