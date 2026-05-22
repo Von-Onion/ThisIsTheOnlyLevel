@@ -7,12 +7,11 @@ public class GameManager : MonoBehaviour
 {
     private Scene scene;
     private int sceneIndex;
-    private BoxCollider2D gravityFlipper;
     public string sceneName;
   
     [SerializeField] private GameObject player;
     public Rigidbody2D rb2d;
-    public Rigidbody2D rbBox;
+    public Rigidbody2D Box;
     public bool isUpsideDown;
 
     [SerializeField] private int frameRate = 10;
@@ -20,6 +19,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         Time.timeScale = 1;
 
         scene = SceneManager.GetActiveScene();
@@ -68,9 +68,5 @@ public class GameManager : MonoBehaviour
     public void Gravity(float scale)
     {
         rb2d.gravityScale = scale;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        
     }
 }
