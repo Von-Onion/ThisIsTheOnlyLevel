@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: f3ba66caa020de84484564dac2bd2527
+guid: 79649d86bc22b1f4887e4caaae9dd4d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4001057685959334977
-    second: New_Piskel-3.png_2_0
+      213: 5930041907640958382
+    second: Portals_0
+  - first:
+      213: -1074516687531151711
+    second: Portals_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New_Piskel-3.png_2_0
+      name: Portals_0
       rect:
         serializedVersion: 2
-        x: 255
-        y: 31
-        width: 514
-        height: 962
+        x: 223
+        y: 1087
+        width: 578
+        height: 898
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14cd37154cc968730800000000000000
-      internalID: 4001057685959334977
+      spriteID: ead7e1042bdbb4250800000000000000
+      internalID: 5930041907640958382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portals_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 578
+        height: 898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aee97604cc8611f0800000000000000
+      internalID: -1074516687531151711
       vertices: []
       indices: 
       edges: []
@@ -151,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      New_Piskel-3.png_2_0: 4001057685959334977
+      Portals_0: 5930041907640958382
+      Portals_1: -1074516687531151711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

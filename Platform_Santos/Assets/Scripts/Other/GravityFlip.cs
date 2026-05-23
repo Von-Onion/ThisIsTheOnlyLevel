@@ -6,7 +6,7 @@ public class GravityFlip : MonoBehaviour
     public Transform to;
     private bool isGravityFlipped = false;
     private float timeCount = 0.0f;
-    [SerializeField] private float speed = 1.5f;
+    [SerializeField] private float speed = 0.0f;
 
     // Update is called once per frame
     void Update()
@@ -22,6 +22,9 @@ public class GravityFlip : MonoBehaviour
             Physics2D.gravity *= -1;
         }
         }
+        timeCount = Mathf.Clamp(timeCount, 0, speed); 
+
+        
         
 
         
@@ -29,18 +32,16 @@ public class GravityFlip : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other) {
         Physics2D.gravity *= -1;
+        
         if(!isGravityFlipped){
-            timeCount = 0f;
             isGravityFlipped = true;
         } else {
-            timeCount = 0f;
             isGravityFlipped = false;
         }
         if(!isGravityFlipped){
             transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, timeCount + Time.deltaTime);
         } else{
-            transform.rotation = Quaternion.Slerp(to.rotation, from.rotation, timeCount + Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(to.rotation, from.rotation, timeCount - Time.deltaTime);
         }
-
     }
 }
