@@ -10,10 +10,12 @@ public class Exit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        scene = SceneManager.GetActiveScene();
-        sceneIndex = scene.buildIndex;
+        if(collision.tag == "Player"){
+            scene = SceneManager.GetActiveScene();
+            sceneIndex = scene.buildIndex;
 
-        SceneManager.LoadScene(sceneIndex + 1);
-        Debug.Log("Exit Reached");
+            SceneManager.LoadScene(sceneIndex + 1);
+            Debug.Log("Exit Reached");
+        } 
     }
 }

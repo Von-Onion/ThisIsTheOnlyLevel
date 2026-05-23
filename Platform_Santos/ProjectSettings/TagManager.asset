@@ -7,6 +7,8 @@ TagManager:
   - Box
   - RedPortal
   - BluePortal
+  - Wall
+  - PortalProof
   layers:
   - Default
   - TransparentFX

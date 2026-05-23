@@ -37,7 +37,8 @@ public class Button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       isPressed = true;
+        if(collision.tag != "RedPortal" || collision.tag != "BluePortal")
+            isPressed = true;
     }
 
 }
