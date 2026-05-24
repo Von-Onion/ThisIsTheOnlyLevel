@@ -36,6 +36,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadScene(sceneName);
+        }
+
         if(sceneName == "Leve2"){
             player.transform.localScale = player.transform.localScale * 2;
         }
